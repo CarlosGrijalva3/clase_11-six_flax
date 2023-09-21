@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding-top: 1px;
+}
+
+
+/*-------------------------------------------------header---------*/
+
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #cf4634;
+   /* box-shadow: 1px 1px 50px #87a959;*/
+
+    position: fixed;
+    /*margin-bottom: 800px;*/
+}
+
+main {
+
+    margin-top: 50px; /* Ajusta este valor según sea necesario para dar suficiente espacio */
+}
+
+
+#menu{
+    width: 750px;
+    padding-top: 5px;
+    margin: auto;
+}
+
+#menu ul a{
+    color: #ffffff; 
+    text-decoration: none;
+    font: 16px;
+    padding: 13px 20px 19px 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+
+}
+
+#menu ul a:hover{
+    color: #f2f2f2;
+    background: #e27b7b;
+}
+
+/**/
+.text1{
+    width: 40%;
+    padding: 10px;
+    margin: 15px;
+    float: left;
+    font-style: italic;
+    background: #f7f7f7;
+}
+
+figure{
+    margin: 20px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8em;
+    color:#5e5e5e;
+}
+
+
+/*-------------------------------FOTER*/
+
+footer{
+    width: 100%;
+    height: 140px;
+    background: #2b2828;
+
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+/*
+#qr{
+    width: auto;
+    height: 140px;
+    
+    
+    background: #372b2b;
+    float: left;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px solid #000;
+    float: center;
+    padding: 20;
+}
+*/
+/*
+#qr img{
+    height: 90px;
+    /*margin-top: 30px;
+}
+*/
+
+
+#foot_izq{/*derecha*/
+
+    height: 85px;
+    float: right;
+    /*background: #f2f2f2;*/
+    text-align: center;
+    padding-top: 25px;
+}
+
+#foot_der{/*izquierda*/
+    margin: auto;
+    max-width: "140px"; 
+    height: 100px;
+    padding-right: 40px;
+    margin-left: 40px;
+   /*background-color: #6e6e6e;*/
+    
+    float: left;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #c7c5c3;
+    font-size: 12px;
+    box-sizing: border-box;
+
+}
+
+/*
+footer{
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    background: #5d6452;
+    font-size: 0.66em;
+    color: #d9f5d5;
+}
+*/
+
+
+#redes{
+    padding: 10px;
+}
+
+#redes h3{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #d6d6d6;
+}
+
+#sociales{
+    width: 350px;
+    text-align: center;
+}
+
+#sociales li{
+    display: inline-block;
+}
+
+#sociales li img{
+    width: 35px;
+    height: 35px;
+}
+
+
+ul{
+    margin: auto;
+    list-style: none;
+}
+
